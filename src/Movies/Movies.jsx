@@ -135,7 +135,7 @@ export function Movies() {
             <>
               { movies
                 ? (movies.data.map((movie) => (
-                  <Link key={movie.id} to={{ pathname: `/film/:${movie.id}` }}>
+                  <Link style={{ textDecoration: 'none' }} key={movie.id} to={{ pathname: `/film/:${movie.id}` }}>
                     <Card data={movie} />
                   </Link>
                 )))

@@ -49,7 +49,7 @@ export function Carousel({ data, error, loading }) {
         {/* {error ? <ImgNotFound src={notFound} alt="" /> : null} */}
         { data
           ? data.data.map((cur) => (
-            <Link key={cur.id} to={{ pathname: `/film/:${cur.id}` }}>
+            <Link style={{ textDecoration: 'none' }} key={cur.id} to={{ pathname: `/film/:${cur.id}` }}>
               <Img
                 ref={imgRef}
                 alt={cur.title}
