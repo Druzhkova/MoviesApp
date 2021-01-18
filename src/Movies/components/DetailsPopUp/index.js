@@ -1,0 +1,1 @@
+export { DetailsPopUp } from './DetailsPopUp';
