@@ -1,4 +1,4 @@
-# Movies App <a href='https://druzhkova.github.io/MoviesApp/'>watch here</a>
+### Movies App <a href='https://druzhkova.github.io/MoviesApp/'>watch here</a>
 
 ### Create Movies App using React
 ---
